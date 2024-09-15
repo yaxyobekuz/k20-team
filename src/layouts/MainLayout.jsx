@@ -22,7 +22,7 @@ const MainLayout = () => {
         <Header />
 
         {/* main */}
-        <main>
+        <main className="pt-20 pb-40">
           <Outlet />
         </main>
       </div>
