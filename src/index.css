@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  body{
-    @apply font-Open-Sans font-normal text-base;
+@layer base {
+  body {
+    @apply font-poppins font-normal text-base text-white;
+  }
+}
+
+@layer components {
+  .site-overlay {
+    background: linear-gradient(
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.7) 144px,
+      rgba(0, 0, 0, 0.5) 240px,
+      rgba(0, 0, 0, 0.5) 100%
+    );
   }
 }
 
