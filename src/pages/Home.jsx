@@ -41,7 +41,7 @@ const Home = () => {
           </div>
 
           {/* social networks list */}
-          <ul className="animate__animated animate__fadeInUp absolute right-5 bottom-0 space-y-5">
+          <ul className="animate__animated animate__fadeInRight absolute right-5 bottom-0 space-y-5">
             {/* telegram */}
             <li>
               <a
