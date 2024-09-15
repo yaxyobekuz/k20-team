@@ -71,8 +71,7 @@ const Home = () => {
             {/* telephone number */}
             <li>
               <a
-                href="https://"
-                target="_blank"
+                href="tel:+1111111111"
                 title="telephone number"
                 rel="noopener noreferrer"
                 aria-label="telephone number"
@@ -99,10 +98,9 @@ const Home = () => {
             <li>
               <a
                 title="email"
-                target="_blank"
                 aria-label="email"
                 rel="noopener noreferrer"
-                href="https://youremail@example.com"
+                href="mailto:youremail@example.com"
                 className="flex items-center justify-center size-11 group"
               >
                 <svg
