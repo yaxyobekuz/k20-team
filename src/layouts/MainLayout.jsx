@@ -37,6 +37,7 @@ const MainLayout = () => {
           <SwiperSlide key={index}>
             <img
               src={slide.image}
+              alt="truck background image"
               className="size-full object-cover bg-gray-500"
             />
           </SwiperSlide>
