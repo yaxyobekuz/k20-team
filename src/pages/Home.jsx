@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const Home = () => (
   <div className="container relative">
     {/* page content */}
-    <div className="max-w-xl space-y-8">
+    <div className="max-w-xl space-y-8 mb-8 md:mb-0">
       {/* page title */}
-      <h1 className="animate__animated animate__fadeInDown text-4xl font-medium">
+      <h1 className="animate__animated animate__fadeInDown">
         Join the K20 Team
       </h1>
 
       {/* description */}
-      <p className="animate__animated animate__fadeInLeft text-lg text-gray-200">
+      <p className="animate__animated animate__fadeInLeft text-lg text-gray-200 sm:text-lg">
         We're looking for passionate and skilled truck drivers to join our
         growing team. K20 Team values commitment, professionalism, and safety.
         Be a part of something bigger.
@@ -22,7 +22,7 @@ const Home = () => (
         {/* about */}
         <Link
           to="/about"
-          className="flex items-center justify-center w-40 bg-primary py-3 rounded-xl text-secondary font-medium transition-colors duration-300 hover:bg-primary/70"
+          className="flex items-center justify-center w-40 bg-primary py-3 rounded-lg text-secondary font-medium transition-colors duration-300 hover:bg-primary/70"
         >
           About
         </Link>
@@ -30,7 +30,7 @@ const Home = () => (
         {/* join us */}
         <Link
           to="/join"
-          className="flex items-center justify-center w-40 py-3 rounded-xl border-2 border-primary bg-secondary/20 font-medium transition-colors duration-300 hover:bg-primary/20"
+          className="flex items-center justify-center w-40 py-3 rounded-lg border-2 border-primary bg-secondary/20 font-medium transition-colors duration-300 hover:bg-primary/20"
         >
           Join us
         </Link>
@@ -38,7 +38,7 @@ const Home = () => (
     </div>
 
     {/* social networks list */}
-    <ul className="animate__animated animate__fadeInRight absolute right-5 bottom-0 space-y-5">
+    <ul className="animate__animated animate__fadeInRight flex gap-5 right-5 bottom-0 md:flex-col md:absolute">
       {/* telegram */}
       <li>
         <a
@@ -80,8 +80,8 @@ const Home = () => (
             role="icon"
             viewBox="0 0 36 36"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            className="size-7 text-white transition-colors duration-300 group-hover:text-primary"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            className="size-6 text-white transition-colors duration-300 group-hover:text-primary"
           >
             <path
               fill="currentColor"
