@@ -9,6 +9,10 @@
     @apply font-poppins font-normal text-base text-white;
   }
 
+  h1 {
+    @apply text-3xl font-medium sm:text-4xl;
+  }
+
   input,
   textarea {
     @apply w-full bg-transparent px-5 py-2.5 border border-white rounded-lg transition-colors duration-300 outline-none hover:bg-white/5 focus:bg-white/5 focus:border-2 focus:border-primary;
