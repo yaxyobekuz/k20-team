@@ -9,7 +9,7 @@ const Header = ({ className = "" }) => {
     <header className={`py-5 ${className}`}>
       <div className="container">
         <div className="flex items-center justify-between gap-5">
-          <nav className="flex items-center gap-12 animate__animated animate__fadeInDown">
+          <nav className=" animate__animated animate__fadeInDown flex items-center justify-between gap-2 w-full sm:gap-12 sm:w-auto sm:justify-normal">
             {/* logo */}
             <Link to="/" className="flex items-center gap-3.5">
               <img
@@ -17,11 +17,11 @@ const Header = ({ className = "" }) => {
                 height={64}
                 src={truckLogo}
                 alt="truck logo svg"
-                className="size-16"
+                className="size-12"
               />
 
               {/* logo text */}
-              <h1 className="font-medium uppercase text-lg">K20 TEAM</h1>
+              <h1 className="font-medium uppercase text-base sm:text-lg">K20 TEAM</h1>
             </Link>
 
             {/* nav list */}
@@ -45,7 +45,7 @@ const Header = ({ className = "" }) => {
           {/* header btn */}
           <Link
             to="/join"
-            className="animate__animated animate__fadeInRight bg-primary backdrop-blur px-10 py-2.5 text-secondary rounded-full font-medium transition-colors duration-300 hover:bg-primary/70"
+            className="animate__animated animate__fadeInRight hidden bg-primary backdrop-blur px-10 py-2.5 text-secondary rounded-full font-medium transition-colors duration-300 hover:bg-primary/70 sm:inline-block"
           >
             Join us
           </Link>
