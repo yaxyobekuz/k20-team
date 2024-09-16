@@ -1,28 +1,27 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+// components
+import Header from "../components/Header";
 
 // swiper
 import "swiper/css";
 import "swiper/css/effect-fade";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
-
-// components
-import Header from "../components/Header";
 
 // data
 import layoutSwiperSlides from "../data/layoutSwiperSlides";
 
 const MainLayout = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <div className="flex flex-col justify-between relative z-10 site-overlay min-h-screen">
         {/* header */}
         <Header />
 
         {/* main */}
-        <main className="pt-20 pb-40">
+        <main className="pt-20 pb-20 sm:pb-40">
           <Outlet />
         </main>
       </div>
