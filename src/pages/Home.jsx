@@ -77,7 +77,6 @@ const Home = () => (
           <svg
             width="28"
             height="28"
-            role="icon"
             viewBox="0 0 36 36"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
