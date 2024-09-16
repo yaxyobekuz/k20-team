@@ -11,7 +11,7 @@ const Home = () => (
       </h1>
 
       {/* description */}
-      <p className="animate__animated animate__fadeInLeft text-lg text-gray-200 sm:text-lg">
+      <p className="animate__animated animate__fadeInLeft text-gray-200 sm:text-lg">
         We're looking for passionate and skilled truck drivers to join our
         growing team. K20 Team values commitment, professionalism, and safety.
         Be a part of something bigger.

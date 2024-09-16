@@ -8,6 +8,7 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import Join from "./pages/Join";
 import About from "./pages/About";
+import Success from "./pages/Success";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="join" element={<Join />} />
+          <Route path="success" element={<Success />} />
         </Route>
       </Routes>
     </Router>
